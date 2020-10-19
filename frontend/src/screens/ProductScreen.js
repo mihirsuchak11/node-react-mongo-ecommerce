@@ -15,7 +15,7 @@ const ProductScreen = ({ match }) => {
             setProduct(data);
         }
         fetchProducts();
-    }, [match.params.id])
+    }, [match])
 
     return (
         <>
